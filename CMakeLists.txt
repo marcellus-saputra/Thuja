@@ -461,12 +461,12 @@ set(MY_TEST
         )
 add_executable(my_test ${MY_TEST})
 
-set(RUN_BREAKING_TEST
-        ${TEB_SOURCE_FILES}
-        src/dtl/bitmap/runbreaking_test.cpp
-        )
+#set(RUN_BREAKING_TEST
+#        ${TEB_SOURCE_FILES}
+#        src/dtl/bitmap/runbreaking_test.cpp
+#        )
 #add_definitions(-DDEBUG)
-add_executable(runbreaking_test ${RUN_BREAKING_TEST})
+#add_executable(runbreaking_test ${RUN_BREAKING_TEST})
 
 set(UPDATE_TEST
         ${TEB_SOURCE_FILES}
