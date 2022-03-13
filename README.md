@@ -22,11 +22,17 @@ All experiments are stored as their own separate programs.
 The results are contained in .txt files generated during the experiment called <experiment name>_log.txt and <experiment name>.res.txt.
 The -log.txt files are intended to be more human readable, while the -res.txt files are intended to be parsed.
  
-- Hybrid approach vs. differential updates
+### Hybrid approach vs. differential updates.
+ 
 In order to run the experiment measuring the performance of hybrid updates, the test bitmaps need to be generated first.
-'''
+```
 make hybrid_v_diff
 GEN_DATA=1 ./hybrid_v_diff
 ./hybrid_v_diff
-'''
-- For all the other experiments, they can be run without using GEN_DATA=1 as their test bitmaps are generated at runtime.
+```
+### Other experiments 
+For all the other experiments, they can be run without using GEN_DATA=1 as their test bitmaps are generated at runtime.
+```
+make <experiment name>
+./<experiment name>
+```
