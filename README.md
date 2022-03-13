@@ -30,9 +30,15 @@ make hybrid_v_diff
 GEN_DATA=1 ./hybrid_v_diff
 ./hybrid_v_diff
 ```
+**hybrid_v_diff** measures the update time as well as the memory consumption for both approaches.
+ 
 ### Other experiments 
 For all the other experiments, they can be run without using GEN_DATA=1 as their test bitmaps are generated at runtime.
 ```
 make <experiment name>
 ./<experiment name>
 ```
+Some of the experiment names are:
+- **diff_v_prune**: measures the performance of run-forming updates with in-place pruning against differential updates with varying merge/prune thresholds. The update time, lookup time, and prune and merge times are measured separately.
+- **runbreaking_update_levels**: measures the performance of run-breaking updates based on the length of the broken run. The -res.txt file instead contains lines of two numbers representing every single run-breaking update: the first number is the length of the broken run, while the second number is the update time for that one individual update. This experiment also compares the performance between run-breaking updates and differential updates, although the results are only seen in the -log.txt file. **runbreaking_v_diff** is the experiment that does that, and outputs a corresponding -res.txt file.
+- **threshold_v_prune**: measures the performance of the in-place pruning algorithm, while also checking its correctness at the end of the experiment. The prune threshold is varied.
