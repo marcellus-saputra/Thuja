@@ -1,0 +1,16 @@
+#*
+#*#
+*#
+*.*#
+*.class
+*.dSYM
+*.la
+*.lo
+*.o
+*.so
+*.exe
+.idea
+.vscode
+cmake-build-*
+**/perf.data
+CMakeListsLocal.cmake
