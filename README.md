@@ -1,9 +1,11 @@
 # Tree-Encoded Bitmaps
 
 This repository contains the source code of
-[*Tree-Encoded Bitmaps*](http://db.in.tum.de/~lang/papers/tebs.pdf).
+[*Tree-Encoded Bitmaps*](http://db.in.tum.de/~lang/papers/tebs.pdf)
+and my Bachelor's thesis, which is an extension of the work done by Lang et al.
+The original repository can be found [here](https://github.com/harald-lang/tree-encoded-bitmaps).
 
-## Quick start
+## Quick start (Original README)
 
 ### Check out the code and run the tests
 ```
