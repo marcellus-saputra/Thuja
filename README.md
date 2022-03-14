@@ -24,7 +24,7 @@ The -log.txt files are intended to be more human readable, while the -res.txt fi
  
 ### Hybrid approach vs. differential updates.
  
-In order to run the experiment measuring the performance of hybrid updates, the test bitmaps need to be generated first.
+In order to run the experiment measuring the performance of hybrid updates, the test bitmaps need to be generated first using GEN_DATA=1 before running the experiment program proper.
 ```
 make hybrid_v_diff
 GEN_DATA=1 ./hybrid_v_diff
