@@ -44,6 +44,6 @@ Some of the experiment names are:
 - **threshold_v_prune**: measures the performance of the in-place pruning algorithm, while also checking its correctness at the end of the experiment. The prune threshold is varied.
  
 ## Changes
-- *src/dtl/bitmap/teb_flat.hpp* contains most of the changes and additions I made.
+- *src/dtl/bitmap/teb_flat.hpp* contains most of the changes and additions we made.
 - The implementation for hybrid updates can be found in *src/dtl/bitmap/diff/diff.hpp*.
-- *experiments/prune* contains the experiments I wrote to test the algorithms I proposed.
+- *experiments/prune* contains the experiments that test the algorithms we proposed.
