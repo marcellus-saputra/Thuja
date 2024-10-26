@@ -47,3 +47,31 @@ Some of the experiment names are:
 - *src/dtl/bitmap/teb_flat.hpp* contains most of the changes and additions we made.
 - The implementation for hybrid updates can be found in *src/dtl/bitmap/diff/diff.hpp*.
 - *experiments/prune* contains the experiments that test the algorithms we proposed.
+
+## Cite Us
+
+To cite our paper, add the following BibTeX snippet to your bibliography:
+
+```
+@inproceedings{DBLP:conf/ssdbm/SaputraZPM22,
+  author       = {Marcellus Prama Saputra and
+                  Eleni Tzirita Zacharatou and
+                  Serafeim Papadias and
+                  Volker Markl},
+  editor       = {Elaheh Pourabbas and
+                  Yongluan Zhou and
+                  Yuchen Li and
+                  Bin Yang},
+  title        = {In-Place Updates in Tree-Encoded Bitmaps},
+  booktitle    = {{SSDBM} 2022: 34th International Conference on Scientific and Statistical
+                  Database Management, Copenhagen, Denmark, July 6 - 8, 2022},
+  pages        = {18:1--18:4},
+  publisher    = {{ACM}},
+  year         = {2022},
+  url          = {https://doi.org/10.1145/3538712.3538745},
+  doi          = {10.1145/3538712.3538745},
+  timestamp    = {Sun, 02 Oct 2022 16:16:07 +0200},
+  biburl       = {https://dblp.org/rec/conf/ssdbm/SaputraZPM22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
